@@ -1,0 +1,543 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Algoritmo Prepara — O preparatório de alta performance da Mata Norte</title>
+  <meta name="description" content="Preparatório para SSA, ENEM, EAPC, CMR, CPM, ETE e IFPE em Carpina/PE. Mudança de mindset, gestão das emoções, gestão do tempo e domínio das disciplinas.">
+  <meta name="theme-color" content="#05070f">
+  <link rel="icon" href="assets/FavIcon-Algoritmo.png">
+  <meta property="og:title" content="Algoritmo Prepara — Programados para vencer">
+  <meta property="og:description" content="O preparatório de alta performance da Mata Norte. SSA • ENEM • EAPC • CMR • CPM • ETE • IFPE.">
+  <meta property="og:image" content="assets/perfil.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=JetBrains+Mono:wght@400;600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="nav">
+    <div class="container nav__inner">
+      <a href="#topo" class="nav__logo" aria-label="Algoritmo Prepara — início">
+        <img src="assets/Logo-Branca-Algoritmo.png" alt="Algoritmo Curso Preparatório" width="910" height="249">
+      </a>
+      <nav class="nav__links" aria-label="Principal">
+        <a href="#metodo">Método</a>
+        <a href="#cursos">Cursos</a>
+        <a href="#resultados">Resultados</a>
+        <a href="#eventos">Eventos</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <a href="https://forms.gle/z4CXja2JZjxukEwr6" target="_blank" rel="noopener" class="btn btn--primary btn--sm nav__cta">Matricule-se</a>
+      <button class="nav__burger" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobileMenu"><span></span><span></span></button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#metodo">Método</a>
+      <a href="#cursos">Cursos</a>
+      <a href="#resultados">Resultados</a>
+      <a href="#eventos">Eventos</a>
+      <a href="#contato">Contato</a>
+      <a href="https://forms.gle/z4CXja2JZjxukEwr6" target="_blank" rel="noopener" class="btn btn--primary">Garanta sua vaga</a>
+    </div>
+  </header>
+
+  <main id="topo">
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <canvas class="hero__code" id="codeRain" aria-hidden="true"></canvas>
+      <div class="hero__glow" aria-hidden="true"></div>
+      <div class="container hero__grid">
+        <div class="hero__copy">
+          <p class="eyebrow reveal"><span class="dot"></span> Matrículas abertas · Bolsas de até 100%</p>
+          <h1 class="hero__title">
+            <span class="line reveal" data-scramble>Programados</span>
+            <span class="line reveal">para <em data-scramble>vencer.</em></span>
+          </h1>
+          <p class="hero__lead reveal">O preparatório de alta performance da Mata Norte. Mudamos a mentalidade dos alunos para transformar dedicação em aprovação no <strong>SSA</strong>, no <strong>ENEM</strong> e nos grandes concursos de Pernambuco.</p>
+          <div class="hero__actions reveal">
+            <a href="https://forms.gle/z4CXja2JZjxukEwr6" target="_blank" rel="noopener" class="btn btn--primary">
+              Quero minha bolsa
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <a href="https://wa.me/5581992787835?text=Ol%C3%A1!%20Quero%20saber%20mais%20sobre%20o%20Algoritmo%20Prepara." target="_blank" rel="noopener" class="btn btn--ghost">
+              <svg viewBox="0 0 24 24" aria-hidden="true" class="ico-wa"><path d="M20.5 3.5A11 11 0 0 0 3.2 17.1L2 22l5-1.2a11 11 0 0 0 13.5-17.3ZM12 20a8.9 8.9 0 0 1-4.6-1.3l-.3-.2-3 .8.8-2.9-.2-.3A9 9 0 1 1 12 20Zm4.9-6.7c-.3-.1-1.6-.8-1.8-.9s-.4-.1-.6.1-.7.9-.8 1-.3.2-.6.1a7.3 7.3 0 0 1-3.6-3.2c-.3-.5.3-.4.8-1.4a.5.5 0 0 0 0-.5l-.8-2c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .1-1.3c0-.1-.2-.2-.5-.3Z"/></svg>
+              Falar no WhatsApp
+            </a>
+          </div>
+          <ul class="hero__proof reveal">
+            <li><strong>7</strong><span>provas no<br>radar</span></li>
+            <li><strong>4</strong><span>pilares de<br>alta performance</span></li>
+            <li><strong>100%</strong><span>de bolsa<br>possível</span></li>
+          </ul>
+        </div>
+
+        <div class="hero__visual" aria-hidden="true">
+          <div class="orbit orbit--1"></div>
+          <div class="orbit orbit--2"><span class="orbit__bit">SSA</span><span class="orbit__bit b2">ENEM</span></div>
+          <div class="hero__ring"></div>
+          <img class="hero__emblem" src="assets/perfil.png" alt="">
+          <img class="hero__students" src="assets/kamylla-nicolas.webp" alt="" width="1080" height="1080">
+          <div class="float-card fc--1">
+            <span class="fc__icon">🏆</span>
+            <div><strong>1º lugar</strong><small>aprovação de aluno Algoritmo</small></div>
+          </div>
+          <div class="float-card fc--2">
+            <span class="fc__code">&lt;/&gt;</span>
+            <div><strong>#ProgramadosParaVencer</strong><small>alunos EAPC · Kamylla e Nicolas</small></div>
+          </div>
+        </div>
+      </div>
+      <a href="#provas" class="hero__scroll" aria-label="Rolar para baixo"><span></span></a>
+    </section>
+
+    <!-- ============ EXAMS MARQUEE ============ -->
+    <section class="exams" id="provas" aria-label="Provas para as quais preparamos">
+      <p class="exams__label">Preparamos você para os maiores exames de Pernambuco</p>
+      <div class="marquee">
+        <div class="marquee__track">
+          <div class="marquee__group">
+            <figure class="exam-chip"><img src="assets/SSA1.webp" alt="SSA 1 — Sistema Seriado de Avaliação"></figure>
+            <figure class="exam-chip"><img src="assets/SSA2.webp" alt="SSA 2"></figure>
+            <figure class="exam-chip"><img src="assets/SSA3-1.webp" alt="SSA 3"></figure>
+            <figure class="exam-chip"><img src="assets/Enem.webp" alt="ENEM — Exame Nacional do Ensino Médio"></figure>
+            <figure class="exam-chip"><img src="assets/EAPC-3.webp" alt="EAPC — Escola de Aplicação Professor Chaves"></figure>
+            <figure class="exam-chip"><img src="assets/CMR.webp" alt="CMR — Colégio Militar do Recife"></figure>
+            <figure class="exam-chip"><img src="assets/CPM.webp" alt="CPM — Colégio da Polícia Militar"></figure>
+            <figure class="exam-chip"><img src="assets/ETE.webp" alt="ETE — Escola Técnica Estadual"></figure>
+            <figure class="exam-chip"><img src="assets/IFPE.webp" alt="IFPE — Instituto Federal de Pernambuco"></figure>
+          </div>
+          <div class="marquee__group" aria-hidden="true">
+            <figure class="exam-chip"><img src="assets/SSA1.webp" alt=""></figure>
+            <figure class="exam-chip"><img src="assets/SSA2.webp" alt=""></figure>
+            <figure class="exam-chip"><img src="assets/SSA3-1.webp" alt=""></figure>
+            <figure class="exam-chip"><img src="assets/Enem.webp" alt=""></figure>
+            <figure class="exam-chip"><img src="assets/EAPC-3.webp" alt=""></figure>
+            <figure class="exam-chip"><img src="assets/CMR.webp" alt=""></figure>
+            <figure class="exam-chip"><img src="assets/CPM.webp" alt=""></figure>
+            <figure class="exam-chip"><img src="assets/ETE.webp" alt=""></figure>
+            <figure class="exam-chip"><img src="assets/IFPE.webp" alt=""></figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ METHOD ============ -->
+    <section class="section method" id="metodo">
+      <div class="container">
+        <div class="section__head">
+          <p class="kicker reveal">// o código da aprovação</p>
+          <h2 class="reveal">Estudar do jeito certo não é difícil. <span class="hl">É método.</span></h2>
+          <p class="section__sub reveal">O Algoritmo Prepara guia cada aluno numa jornada de alta performance. Conteúdo é só uma parte: a aprovação nasce quando cabeça, rotina e disciplina trabalham juntas.</p>
+        </div>
+
+        <div class="pillars">
+          <article class="pillar reveal" data-tilt>
+            <span class="pillar__num">01</span>
+            <div class="pillar__icon">
+              <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 6a14 14 0 0 0-8 25.5V36h16v-4.5A14 14 0 0 0 24 6Z"/><path d="M18 42h12M20 36v-6l-3-4M28 36v-6l3-4M24 16v8"/></svg>
+            </div>
+            <h3>Mudança de mindset</h3>
+            <p>Você aprende a pensar como um vencedor, supera crenças limitantes e constrói confiança em si mesmo.</p>
+          </article>
+          <article class="pillar reveal" data-tilt>
+            <span class="pillar__num">02</span>
+            <div class="pillar__icon">
+              <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 41s-15-8.6-15-20a8.5 8.5 0 0 1 15-5.5A8.5 8.5 0 0 1 39 21c0 11.4-15 20-15 20Z"/><path d="M12 24h7l3-6 4 11 3-5h7"/></svg>
+            </div>
+            <h3>Gestão das emoções</h3>
+            <p>Técnicas para lidar com a ansiedade, manter a calma e a concentração e evitar o famoso “branco” na hora da prova.</p>
+          </article>
+          <article class="pillar reveal" data-tilt>
+            <span class="pillar__num">03</span>
+            <div class="pillar__icon">
+              <svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="26" r="15"/><path d="M24 17v9l6 4M19 5h10M24 5v6M37 12l3-3"/></svg>
+            </div>
+            <h3>Gestão do tempo</h3>
+            <p>Métodos práticos para organizar a rotina, priorizar conteúdos e estudar com eficiência, sem desperdiçar energia.</p>
+          </article>
+          <article class="pillar reveal" data-tilt>
+            <span class="pillar__num">04</span>
+            <div class="pillar__icon">
+              <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M8 12c6-3 11-3 16 1 5-4 10-4 16-1v26c-6-3-11-3-16 1-5-4-10-4-16-1Z"/><path d="M24 13v26M14 20l4 3 6-7"/></svg>
+            </div>
+            <h3>Domínio das disciplinas</h3>
+            <p>Acompanhamento estruturado para consolidar o conteúdo, entender a matéria em profundidade e dominar cada assunto.</p>
+          </article>
+        </div>
+
+        <!-- Terminal-style "algorithm" -->
+        <div class="terminal reveal" aria-label="Como funciona o método, em etapas">
+          <div class="terminal__bar"><i></i><i></i><i></i><span>algoritmo.prepara</span></div>
+          <pre class="terminal__body" id="terminal"><code></code></pre>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ DIRECTOR ============ -->
+    <section class="section director">
+      <div class="container director__grid">
+        <div class="director__photo reveal">
+          <div class="director__frame">
+            <svg class="director__shape" viewBox="0 0 400 460" aria-hidden="true">
+              <defs>
+                <linearGradient id="gShield" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0" stop-color="#2BEB98"/>
+                  <stop offset="1" stop-color="#0a8f4a"/>
+                </linearGradient>
+              </defs>
+              <path d="M200 10 380 70v150c0 110-80 190-180 230C100 410 20 330 20 220V70Z" fill="url(#gShield)"/>
+              <path d="M200 40 352 92v128c0 92-66 160-152 196C114 380 48 312 48 220V92Z" fill="none" stroke="rgba(255,255,255,.35)" stroke-width="2" stroke-dasharray="4 8"/>
+            </svg>
+            <img src="assets/eneias.webp" alt="Professor Enéias Santana, diretor pedagógico do Algoritmo Prepara" width="1472" height="1788" loading="lazy">
+          </div>
+          <div class="director__tag">
+            <strong>Prof. Enéias Santana</strong>
+            <span>Diretor Pedagógico</span>
+          </div>
+        </div>
+        <div class="director__copy">
+          <p class="kicker reveal">// quem conduz a missão</p>
+          <h2 class="reveal">Uma metodologia assertiva, feita para <span class="hl">resultado.</span></h2>
+          <blockquote class="reveal">
+            “No Algoritmo Prepara, o sucesso do seu filho é a nossa razão de existir. Despertamos o prazer de aprender e ensinamos técnicas de estudo que transformam dedicação em conquistas reais.”
+          </blockquote>
+          <div class="mvv">
+            <div class="mvv__item reveal">
+              <h4><span>M</span>Missão</h4>
+              <p>Preparar e capacitar alunos a atingirem seu potencial máximo, com soluções educacionais estratégicas, inovadoras e práticas.</p>
+            </div>
+            <div class="mvv__item reveal">
+              <h4><span>V</span>Visão</h4>
+              <p>Ser referência em aprovações de provas e exames classificatórios na região, fazendo a diferença na vida dos alunos e famílias.</p>
+            </div>
+            <div class="mvv__item reveal">
+              <h4><span>V</span>Valores</h4>
+              <p>Qualidade no ensino, professores capacitados, inovação, excelência, equidade e compromisso com os pais e com os resultados.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ COURSES ============ -->
+    <section class="section courses" id="cursos">
+      <div class="container">
+        <div class="section__head section__head--row">
+          <div>
+            <p class="kicker reveal">// escolha sua missão</p>
+            <h2 class="reveal">Turmas para cada <span class="hl">objetivo.</span></h2>
+          </div>
+          <div class="tabs reveal" role="tablist" aria-label="Filtrar cursos">
+            <button role="tab" aria-selected="true" data-filter="all">Todos</button>
+            <button role="tab" aria-selected="false" data-filter="vest">Vestibular</button>
+            <button role="tab" aria-selected="false" data-filter="conc">Concursos escolares</button>
+          </div>
+        </div>
+
+        <div class="course-grid">
+          <article class="course reveal course--featured" data-cat="vest">
+            <div class="course__top">
+              <span class="badge">Mais procurado</span>
+              <span class="course__code">0x01</span>
+            </div>
+            <h3>Pré-ENEM</h3>
+            <p>Revisão estratégica das quatro áreas do conhecimento e da redação, com foco no que mais cai e treino no ritmo real da prova.</p>
+            <ul>
+              <li>Linguagens, Humanas, Natureza e Matemática</li>
+              <li>Redação nota mil: estrutura e repertório</li>
+              <li>Simulados no formato ENEM</li>
+            </ul>
+            <a href="#contato" class="course__link" data-course="Pré-ENEM">Quero o Pré-ENEM <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </article>
+
+          <article class="course reveal" data-cat="vest">
+            <div class="course__top"><span class="badge badge--soft">UPE</span><span class="course__code">0x02</span></div>
+            <h3>SSA 1</h3>
+            <p>A primeira etapa do Sistema Seriado da UPE, construída junto com o 1º ano. Comece cedo e saia na frente.</p>
+            <ul>
+              <li>Base sólida em todas as disciplinas</li>
+              <li>Questões no estilo UPE</li>
+              <li>Rotina de estudos guiada</li>
+            </ul>
+            <a href="#contato" class="course__link" data-course="SSA 1">Quero o SSA 1 <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </article>
+
+          <article class="course reveal" data-cat="vest">
+            <div class="course__top"><span class="badge badge--soft">UPE</span><span class="course__code">0x03</span></div>
+            <h3>SSA 2 e SSA 3</h3>
+            <p>Continuidade do seriado com aprofundamento e estratégia de pontuação para garantir a vaga na universidade.</p>
+            <ul>
+              <li>Aprofundamento por área</li>
+              <li>Análise das provas anteriores</li>
+              <li>Estratégia de nota acumulada</li>
+            </ul>
+            <a href="#contato" class="course__link" data-course="SSA 2 / SSA 3">Quero o SSA 2/3 <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </article>
+
+          <article class="course reveal" data-cat="conc">
+            <div class="course__top"><span class="badge badge--soft">Fundamental</span><span class="course__code">0x04</span></div>
+            <h3>Colégios militares</h3>
+            <p>Preparação direcionada para o Colégio Militar do Recife e o Colégio da Polícia Militar de Pernambuco.</p>
+            <ul>
+              <li>CMR e CPM</li>
+              <li>Português e Matemática em alto nível</li>
+              <li>Treino com provas anteriores</li>
+            </ul>
+            <a href="#contato" class="course__link" data-course="Colégios militares (CMR/CPM)">Quero CMR/CPM <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </article>
+
+          <article class="course reveal" data-cat="conc">
+            <div class="course__top"><span class="badge badge--soft">Fundamental</span><span class="course__code">0x05</span></div>
+            <h3>EAPC</h3>
+            <p>Turma para a seleção da Escola de Aplicação Professor Chaves, uma das mais concorridas da região.</p>
+            <ul>
+              <li>Conteúdo alinhado ao edital</li>
+              <li>Simulados cronometrados</li>
+              <li>Acompanhamento próximo da família</li>
+            </ul>
+            <a href="#contato" class="course__link" data-course="EAPC">Quero a EAPC <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </article>
+
+          <article class="course reveal" data-cat="conc">
+            <div class="course__top"><span class="badge badge--soft">Técnico</span><span class="course__code">0x06</span></div>
+            <h3>IFPE e ETE</h3>
+            <p>Preparação para o ensino técnico integrado do Instituto Federal e das Escolas Técnicas Estaduais.</p>
+            <ul>
+              <li>IFPE e ETE</li>
+              <li>Foco nas disciplinas cobradas</li>
+              <li>Estratégia de prova e tempo</li>
+            </ul>
+            <a href="#contato" class="course__link" data-course="IFPE / ETE">Quero IFPE/ETE <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SCHOLARSHIP BAND ============ -->
+    <section class="bolsa">
+      <div class="container bolsa__inner reveal">
+        <div class="bolsa__num" aria-hidden="true"><span data-count="100">0</span>%</div>
+        <div class="bolsa__copy">
+          <p class="kicker kicker--dark">// processo seletivo de bolsas</p>
+          <h2>Seu esforço pode valer até <strong>100% de bolsa.</strong></h2>
+          <p>Faça a prova de bolsas do Algoritmo e garanta seu lugar nas turmas de SSA 1, SSA 2 e Pré-ENEM.</p>
+        </div>
+        <a href="https://forms.gle/z4CXja2JZjxukEwr6" target="_blank" rel="noopener" class="btn btn--dark">Fazer inscrição <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </div>
+    </section>
+
+    <!-- ============ RESULTS ============ -->
+    <section class="section results" id="resultados">
+      <div class="container">
+        <div class="section__head">
+          <p class="kicker reveal">// prova social</p>
+          <h2 class="reveal">Quem entra no Algoritmo <span class="hl">sobe de nível.</span></h2>
+          <p class="section__sub reveal">Cada aprovação é um código decifrado. Conheça algumas histórias da nossa turma de aprovados.</p>
+        </div>
+
+        <div class="results__grid">
+          <figure class="r-card r-card--photo reveal">
+            <img src="assets/kamylla-nicolas.webp" alt="Kamylla e Nicolas, alunos EAPC e Algoritmo Prepara, com a camisa Programados para Vencer" loading="lazy">
+            <figcaption>
+              <span class="badge">EAPC</span>
+              <strong>Kamylla e Nicolas</strong>
+              <small>Alunos EAPC e Algoritmo Prepara</small>
+            </figcaption>
+          </figure>
+
+          <div class="r-card r-card--stat reveal">
+            <span class="r-card__label">Colocação máxima</span>
+            <strong class="r-card__big"><span data-count="1">0</span>º</strong>
+            <p>Lugar conquistado por aluno do Algoritmo. Topo da lista.</p>
+          </div>
+
+          <div class="r-card r-card--stat reveal">
+            <span class="r-card__label">Shayane</span>
+            <strong class="r-card__big"><span data-count="55">0</span>º</strong>
+            <p>“Parabéns, Shayane, pela sua aprovação e conquista!” Mais uma do nosso time.</p>
+          </div>
+
+          <div class="r-card r-card--quote reveal">
+            <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M13 8H7a3 3 0 0 0-3 3v6h6v7h3V8Zm15 0h-6a3 3 0 0 0-3 3v6h6v7h3V8Z"/></svg>
+            <p>“Passar em uma prova exige muito mais do que dominar conteúdo. Exige cabeça boa, constância e quem segure a onda quando o cansaço bate.”</p>
+            <span>— Algoritmo Prepara</span>
+          </div>
+
+          <a class="r-card r-card--ig reveal" href="https://www.instagram.com/algoritmoprepara" target="_blank" rel="noopener">
+            <span class="r-card__label">Instagram</span>
+            <strong>Veja todos os aprovados</strong>
+            <p>Os destaques “Resultados” e “Prova Social” no nosso perfil reúnem cada conquista.</p>
+            <span class="r-card__go">@algoritmoprepara <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EVENTS ============ -->
+    <section class="section events" id="eventos">
+      <div class="container events__grid">
+        <div class="events__poster reveal">
+          <img src="assets/inscricao.webp" alt="Cartaz do Aulão Pré-Vestibular Decodifica Algoritmo, 17 de outubro, das 7h30 às 16h, no Auditório ETEMERB em Carpina/PE" loading="lazy">
+          <div class="events__scan" aria-hidden="true"></div>
+        </div>
+        <div class="events__copy">
+          <p class="kicker reveal">// eventos</p>
+          <h2 class="reveal">Aulões que viram <span class="hl">história.</span></h2>
+          <p class="section__sub reveal">Muito além da revisão: energia lá no alto, estratégia e a preparação mais forte e focada da região.</p>
+
+          <ol class="timeline">
+            <li class="reveal">
+              <span class="timeline__date">17 · OUT</span>
+              <div>
+                <h4>Aulão Decodifica Algoritmo</h4>
+                <p>Pré-vestibular no Auditório ETEMERB, em Carpina, das 7h30 às 16h. Entrega máxima para destravar a aprovação.</p>
+              </div>
+            </li>
+            <li class="reveal">
+              <span class="timeline__date">ENEM</span>
+              <div>
+                <h4>Missão ENEM: os agentes</h4>
+                <p>Série de dicas dos nossos “agentes” por disciplina: os temas que mais caem em Física, Química, Biologia, História e Matemática.</p>
+              </div>
+            </li>
+            <li class="reveal">
+              <span class="timeline__date">30 · MAI</span>
+              <div>
+                <h4>A ciência por trás da Copa</h4>
+                <p>1º Aulão Temático de Ciências da Natureza: física, química e biologia explicadas a partir do futebol.</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section class="section faq">
+      <div class="container faq__grid">
+        <div>
+          <p class="kicker reveal">// dúvidas frequentes</p>
+          <h2 class="reveal">Perguntas <span class="hl">frequentes.</span></h2>
+          <p class="section__sub reveal">Não encontrou o que procurava? Fale com a nossa equipe no WhatsApp.</p>
+        </div>
+        <div class="faq__list">
+          <details class="reveal">
+            <summary>Para quais provas o Algoritmo prepara?</summary>
+            <div><p>SSA 1, SSA 2 e SSA 3 (UPE), ENEM, EAPC, Colégio Militar do Recife (CMR), Colégio da Polícia Militar (CPM), ETE e IFPE.</p></div>
+          </details>
+          <details class="reveal">
+            <summary>Como funciona a bolsa de estudos?</summary>
+            <div><p>Pelo processo seletivo de bolsas, o aluno pode garantir até 100% de desconto. Faça a inscrição pelo formulário e acompanhe o edital no nosso Instagram.</p></div>
+          </details>
+          <details class="reveal">
+            <summary>Onde fica o curso?</summary>
+            <div><p>Na Av. Assis Chateaubriand, 245, bairro Santo Antônio, Carpina/PE, no prédio do Colégio Tavares de Sousa. Atendemos alunos de Carpina, Paudalho, Araçoiaba e de toda a Mata Norte.</p></div>
+          </details>
+          <details class="reveal">
+            <summary>O que diferencia o método do Algoritmo?</summary>
+            <div><p>Trabalhamos quatro pilares ao mesmo tempo: mudança de mindset, gestão das emoções, gestão do tempo e domínio das disciplinas. O aluno aprende o conteúdo e também como estudar.</p></div>
+          </details>
+          <details class="reveal">
+            <summary>Os pais acompanham o desempenho?</summary>
+            <div><p>Sim. O compromisso com os pais faz parte dos nossos valores, e a família acompanha a evolução do aluno ao longo da preparação.</p></div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section contact" id="contato">
+      <div class="container contact__grid">
+        <div class="contact__copy">
+          <p class="kicker reveal">// fale conosco</p>
+          <h2 class="reveal">Seu futuro <span class="hl">começa aqui.</span></h2>
+          <p class="section__sub reveal">Deixe seus dados e nossa equipe entra em contato para tirar suas dúvidas e passar todas as informações.</p>
+          <ul class="contact__list">
+            <li class="reveal"><a href="https://wa.me/5581992787835" target="_blank" rel="noopener"><span class="ci">☏</span><div><small>WhatsApp</small>(81) 9 9278-7835</div></a></li>
+            <li class="reveal"><a href="mailto:atendimento@algoritmoprepara.com.br"><span class="ci">@</span><div><small>E-mail</small>atendimento@algoritmoprepara.com.br</div></a></li>
+            <li class="reveal"><a href="https://maps.app.goo.gl/HLDHN5ARvDzCMixbA" target="_blank" rel="noopener"><span class="ci">⌖</span><div><small>Endereço</small>Av. Assis Chateaubriand, 245 · Santo Antônio · Carpina/PE</div></a></li>
+          </ul>
+        </div>
+
+        <form class="form reveal" id="leadForm" novalidate>
+          <h3>Garanta sua vaga</h3>
+          <p class="form__note">Ao enviar, abrimos uma conversa no WhatsApp com suas informações.</p>
+          <label>Nome do aluno
+            <input name="nome" type="text" autocomplete="name" required placeholder="Como podemos chamar?">
+          </label>
+          <label>Telefone / WhatsApp
+            <input name="tel" type="tel" autocomplete="tel" inputmode="tel" required placeholder="(81) 9 0000-0000">
+          </label>
+          <label>Curso de interesse
+            <select name="curso" required>
+              <option value="">Selecione</option>
+              <option>Pré-ENEM</option>
+              <option>SSA 1</option>
+              <option>SSA 2 / SSA 3</option>
+              <option>Colégios militares (CMR/CPM)</option>
+              <option>EAPC</option>
+              <option>IFPE / ETE</option>
+              <option>Processo seletivo de bolsas</option>
+            </select>
+          </label>
+          <label><span>Mensagem <span class="opt">(opcional)</span></span>
+            <textarea name="msg" rows="3" placeholder="Conte um pouco sobre o aluno"></textarea>
+          </label>
+          <button type="submit" class="btn btn--primary btn--block">Enviar pelo WhatsApp <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+        </form>
+      </div>
+
+      <div class="container">
+        <div class="map reveal">
+          <iframe title="Mapa: Algoritmo Prepara em Carpina/PE" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.google.com/maps?q=Av.+Assis+Chateaubriand,+245,+Santo+Ant%C3%B4nio,+Carpina+-+PE&output=embed"></iframe>
+          <div class="map__card">
+            <img src="assets/perfil.png" alt="" width="56" height="56">
+            <div><strong>Algoritmo Prepara</strong><small>Prédio do Colégio Tavares de Sousa</small></div>
+            <a href="https://maps.app.goo.gl/HLDHN5ARvDzCMixbA" target="_blank" rel="noopener" class="btn btn--primary btn--sm">Como chegar</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="footer__big" aria-hidden="true">ALGORITMO</div>
+    <div class="container footer__grid">
+      <div>
+        <img src="assets/Logo-Branca-Algoritmo.png" alt="Algoritmo Curso Preparatório" class="footer__logo" loading="lazy">
+        <p>O melhor preparatório da Mata Norte. Mudamos a mentalidade dos alunos para atingir a alta performance nos estudos.</p>
+      </div>
+      <div>
+        <h5>Navegue</h5>
+        <a href="#metodo">Método</a><a href="#cursos">Cursos</a><a href="#resultados">Resultados</a><a href="#eventos">Eventos</a>
+      </div>
+      <div>
+        <h5>Contato</h5>
+        <a href="https://wa.me/5581992787835" target="_blank" rel="noopener">(81) 9 9278-7835</a>
+        <a href="mailto:atendimento@algoritmoprepara.com.br">atendimento@algoritmoprepara.com.br</a>
+        <span>Av. Assis Chateaubriand, 245 · Carpina/PE</span>
+      </div>
+      <div>
+        <h5>Siga</h5>
+        <a href="https://www.instagram.com/algoritmoprepara" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.facebook.com/p/Algoritmo-Prepara-61568410947233/" target="_blank" rel="noopener">Facebook</a>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <span>© <span id="year">2026</span> Algoritmo Prepara. Todos os direitos reservados.</span>
+      <span class="mono">#ProgramadosParaVencer</span>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/5581992787835?text=Ol%C3%A1!%20Quero%20saber%20mais%20sobre%20o%20Algoritmo%20Prepara." class="wa-float" target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 3.5A11 11 0 0 0 3.2 17.1L2 22l5-1.2a11 11 0 0 0 13.5-17.3ZM12 20a8.9 8.9 0 0 1-4.6-1.3l-.3-.2-3 .8.8-2.9-.2-.3A9 9 0 1 1 12 20Zm4.9-6.7c-.3-.1-1.6-.8-1.8-.9s-.4-.1-.6.1-.7.9-.8 1-.3.2-.6.1a7.3 7.3 0 0 1-3.6-3.2c-.3-.5.3-.4.8-1.4a.5.5 0 0 0 0-.5l-.8-2c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .1-1.3c0-.1-.2-.2-.5-.3Z"/></svg>
+  </a>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
