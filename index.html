@@ -466,10 +466,10 @@
           <h3>Garanta sua vaga</h3>
           <p class="form__note">Ao enviar, abrimos uma conversa no WhatsApp com suas informações.</p>
           <label>Nome do aluno
-            <input name="nome" type="text" autocomplete="name" required placeholder="Como podemos chamar?">
+            <input maxlength="80" name="nome" type="text" autocomplete="name" required placeholder="Como podemos chamar?">
           </label>
           <label>Telefone / WhatsApp
-            <input name="tel" type="tel" autocomplete="tel" inputmode="tel" required placeholder="(81) 9 0000-0000">
+            <input maxlength="20" name="tel" type="tel" autocomplete="tel" inputmode="tel" required placeholder="(81) 9 0000-0000">
           </label>
           <label>Curso de interesse
             <select name="curso" required>
@@ -484,7 +484,7 @@
             </select>
           </label>
           <label><span>Mensagem <span class="opt">(opcional)</span></span>
-            <textarea name="msg" rows="3" placeholder="Conte um pouco sobre o aluno"></textarea>
+            <textarea maxlength="500" name="msg" rows="3" placeholder="Conte um pouco sobre o aluno"></textarea>
           </label>
           <button type="submit" class="btn btn--primary btn--block">Enviar pelo WhatsApp <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
         </form>
